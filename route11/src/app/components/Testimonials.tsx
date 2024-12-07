@@ -8,14 +8,14 @@ export default function Testimonials() {
         <div className="flex flex-wrap justify-center gap-8">
           <div className="bg-white p-6 rounded-lg shadow-md max-w-sm">
             <p className="text-gray-600 mb-4">
-              "Finally, a transport solution just for students like me!"
+              Finally, a transport solution just for students like me!
             </p>
             <p className="font-semibold">- Joan, 3rd Year Student</p>
           </div>
           <div className="bg-white p-6 rounded-lg shadow-md max-w-sm">
             <p className="text-gray-600 mb-4">
-              "Route11 has made my daily commute so much more convenient and
-              reliable."
+              Route11 has made my daily commute so much more convenient and
+              reliable.
             </p>
             <p className="font-semibold">- Prof. Johnson, Faculty Member</p>
           </div>
