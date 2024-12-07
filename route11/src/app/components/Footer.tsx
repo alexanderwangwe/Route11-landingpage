@@ -1,4 +1,4 @@
-import { Instagram, Twitter, Linkedin,Phone, Bus } from "lucide-react";
+import { Instagram, Twitter, Linkedin,Mail,Phone, Bus } from "lucide-react";
 
 export default function Footer() {
   return (
@@ -41,9 +41,9 @@ export default function Footer() {
             <Phone className="w-5 h-5 mr-3" /> +254 797873820
           </p>
           {/* Uncomment to enable email */}
-          {/* <p className="flex items-center justify-center md:justify-start mb-2">
+           <p className="flex items-center justify-center md:justify-start mb-2">
             <Mail className="w-5 h-5 mr-3" /> contact@route11.com
-          </p> */}
+          </p> 
           <p className="text-xs mt-4 opacity-75">
             © 2025 Route11. All rights reserved.
           </p>
