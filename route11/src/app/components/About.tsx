@@ -1,4 +1,4 @@
-import Image from 'next/image'
+import Image from "next/image";
 
 export default function About() {
   return (
@@ -7,12 +7,19 @@ export default function About() {
         <div className="container mx-auto px-4 flex flex-col md:flex-row items-center justify-between">
           {/* Text Section */}
           <div className="md:w-1/2 mb-8 md:mb-0">
-            <h2 className="text-4xl font-bold text-green-800 mb-6 tracking-tight">About Route11</h2>
+            <h2 className="text-4xl font-bold text-green-800 mb-6 tracking-tight">
+              About Route11
+            </h2>
             <p className="text-lg mb-6 text-gray-700 leading-relaxed">
-              Daily campus commutes can be frustrating—overcrowded matatus, unpredictable schedules, fluctuating fares, and long wait times make it a stressful experience for students and staff.
+              Daily campus commutes can be frustrating—overcrowded matatus,
+              unpredictable schedules, fluctuating fares, and long wait times
+              make it a stressful experience for students and staff.
               <br />
               <br />
-              Route11 is a smart commuting solution for campus students and staff, offering reliable, affordable, and tech-enabled transportation. Enjoy guaranteed seating, real-time tracking, and harassment-free rides.
+              Route11 is a smart commuting solution for campus students and
+              staff, offering reliable, affordable, and tech-enabled
+              transportation. Enjoy guaranteed seating, real-time tracking, and
+              harassment-free rides.
             </p>
           </div>
 
@@ -29,5 +36,5 @@ export default function About() {
         </div>
       </div>
     </section>
-  )
+  );
 }

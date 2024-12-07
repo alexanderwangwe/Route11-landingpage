@@ -1,4 +1,4 @@
-import { Instagram, Twitter, Linkedin, Mail, Phone , Bus} from 'lucide-react';
+import { Instagram, Twitter, Linkedin, Mail, Phone, Bus } from "lucide-react";
 
 export default function Footer() {
   return (
@@ -7,9 +7,11 @@ export default function Footer() {
         <div className="flex flex-col md:flex-row justify-between items-center mb-6">
           {/* Left Section */}
           <div className="mb-6 md:mb-0 text-center md:text-left">
-          <Bus className="w-8 h-8 mr-2 text-black-200" />
+            <Bus className="w-8 h-8 mr-2 text-black-200" />
             <p className="text-2xl font-semibold tracking-wide">Route11</p>
-            <p className="text-sm mt-2 text-gray-300">Coming soon. Stay tuned for updates!</p>
+            <p className="text-sm mt-2 text-gray-300">
+              Coming soon. Stay tuned for updates!
+            </p>
           </div>
           {/* Social Icons */}
           <div className="flex space-x-6 text-gray-200">
@@ -42,7 +44,9 @@ export default function Footer() {
           {/* <p className="flex items-center justify-center md:justify-start mb-2">
             <Mail className="w-5 h-5 mr-3" /> contact@route11.com
           </p> */}
-          <p className="text-xs mt-4 opacity-75">© 2025 Route11. All rights reserved.</p>
+          <p className="text-xs mt-4 opacity-75">
+            © 2025 Route11. All rights reserved.
+          </p>
         </div>
       </div>
     </footer>

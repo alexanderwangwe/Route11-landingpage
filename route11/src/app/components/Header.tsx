@@ -3,7 +3,6 @@ import { Button } from "@/components/ui/button";
 import Image from "next/image";
 import { Bus } from "lucide-react";
 
-
 export default function Header() {
   return (
     <header className="bg-cyan-600 text-white py-16 mx:10 md:py-24">
