@@ -1,15 +1,20 @@
-'use client';
+"use client";
 
-import React from 'react';
+import React from "react";
 
 interface ButtonProps {
   children: React.ReactNode;
-  type?: 'button' | 'submit' | 'reset';
+  type?: "button" | "submit" | "reset";
   className?: string;
   onClick?: () => void; // Optional for non-interactive buttons
 }
 
-export const Button: React.FC<ButtonProps> = ({ children, type = 'button', className, onClick }) => {
+export const Button: React.FC<ButtonProps> = ({
+  children,
+  type = "button",
+  className,
+  onClick,
+}) => {
   return (
     <button
       type={type}
