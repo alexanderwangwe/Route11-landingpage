@@ -1,36 +1,50 @@
-import { Instagram, Twitter, Linkedin, Mail, Phone } from 'lucide-react'
+import { Instagram, Twitter, Linkedin, Mail, Phone , Bus} from 'lucide-react';
 
 export default function Footer() {
   return (
-    <footer className="bg-gray-800 text-white py-8">
-      <div className="container mx-auto px-4">
-        <div className="flex flex-col md:flex-row justify-between items-center">
-          <div className="mb-4 md:mb-0">
-            <p className="text-lg font-semibold">Route11</p>
-            <p className="text-sm">Coming soon to your campus. Stay tuned for updates!</p>
+    <footer className="bg-cyan-900 text-white py-10">
+      <div className="container mx-auto px-6">
+        <div className="flex flex-col md:flex-row justify-between items-center mb-6">
+          {/* Left Section */}
+          <div className="mb-6 md:mb-0 text-center md:text-left">
+          <Bus className="w-8 h-8 mr-2 text-black-200" />
+            <p className="text-2xl font-semibold tracking-wide">Route11</p>
+            <p className="text-sm mt-2 text-gray-300">Coming soon. Stay tuned for updates!</p>
           </div>
-          <div className="flex space-x-4">
-            <a href="#" className="hover:text-yellow-400 transition-colors duration-300">
-              <Instagram className="w-6 h-6" />
+          {/* Social Icons */}
+          <div className="flex space-x-6 text-gray-200">
+            <a
+              href="#"
+              className="hover:text-yellow-400 transition-colors duration-300 ease-in-out"
+            >
+              <Instagram className="w-7 h-7" />
             </a>
-            <a href="#" className="hover:text-yellow-400 transition-colors duration-300">
-              <Twitter className="w-6 h-6" />
+            <a
+              href="#"
+              className="hover:text-yellow-400 transition-colors duration-300 ease-in-out"
+            >
+              <Twitter className="w-7 h-7" />
             </a>
-            <a href="#" className="hover:text-yellow-400 transition-colors duration-300">
-              <Linkedin className="w-6 h-6" />
+            <a
+              href="#"
+              className="hover:text-yellow-400 transition-colors duration-300 ease-in-out"
+            >
+              <Linkedin className="w-7 h-7" />
             </a>
           </div>
         </div>
-        <div className="mt-4 text-center md:text-left">
-          <p className="flex items-center justify-center md:justify-start">
-            <Mail className="w-4 h-4 mr-2" /> contact@route11.com
+        {/* Contact Section */}
+        <div className="mt-6 text-center md:text-left text-gray-300">
+          <p className="flex items-center justify-center md:justify-start mb-2">
+            <Phone className="w-5 h-5 mr-3" /> +254 797873820
           </p>
-          <p className="flex items-center justify-center md:justify-start mt-2">
-            <Phone className="w-4 h-4 mr-2" /> +254 123 456 789
-          </p>
+          {/* Uncomment to enable email */}
+          {/* <p className="flex items-center justify-center md:justify-start mb-2">
+            <Mail className="w-5 h-5 mr-3" /> contact@route11.com
+          </p> */}
+          <p className="text-xs mt-4 opacity-75">© 2025 Route11. All rights reserved.</p>
         </div>
       </div>
     </footer>
-  )
+  );
 }
-
